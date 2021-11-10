@@ -1,0 +1,8 @@
+mysql
+create database example;
+// the user table was created in dBeaver, the skript sent separately
+create database example;
+exit
+mysqldump example > example.sql
+dir
+mysql sample < example.sql
